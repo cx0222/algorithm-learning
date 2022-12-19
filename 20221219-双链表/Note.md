@@ -1,9 +1,10 @@
 # No. 430 flatten-a-multilevel-doubly-linked-list
 
 ## 问题分析
-1. 难度：Leetcode 中等<br>
-2. 思路：深度优先搜索，运用递归的思想解决问题<br>
-3. 易错点：注意将子链表插入父链表后，需要改变的指针不仅仅有 next 还要有 prev；注意链表遍历终止的条件
+1. 题目难度：Leetcode 430 中等<br>
+2. 基本思路：深度优先搜索，运用递归的思想解决问题，递归的三个作用（见北京大学郭炜老师慕课）<br>
+3. 注意事项：注意将子链表插入父链表后，需要改变的指针不仅仅有 next 还要有 prev；注意链表遍历终止的条件<br>
+4. 类似题目：Leetcode 114 二叉树展开为链表，本质上思路是一样的，还是运用递归来解决问题，链接如下：https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/
 
 ## 算法实现
 1. Java
