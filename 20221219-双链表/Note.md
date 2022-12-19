@@ -1,8 +1,9 @@
 # No. 430 flatten-a-multilevel-doubly-linked-list
 
 ## 问题分析
-1. 思路：深度优先搜索，运用递归的思想解决问题<br>
-2. 难度：Leetcode 中等
+1. 难度：Leetcode 中等<br>
+2. 思路：深度优先搜索，运用递归的思想解决问题<br>
+3. 易错点：注意将子链表插入父链表后，需要改变的指针不仅仅有 next 还要有 prev；注意链表遍历终止的条件
 
 ## 算法实现
 1. Java
