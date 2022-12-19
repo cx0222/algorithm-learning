@@ -1,11 +1,11 @@
 # No. 430 flatten-a-multilevel-doubly-linked-list
 
 ## 问题分析
-1.思路：深度优先搜索，运用递归的思想解决问题
-2.难度：Leetcode 中等
+1. 思路：深度优先搜索，运用递归的思想解决问题<br>
+2. 难度：Leetcode 中等
 
 ## 算法实现
-1.Java
+1. Java
 ```java
 public static Node flatten(Node head) {
         Node currentNode = head;
@@ -30,7 +30,7 @@ public static Node flatten(Node head) {
         return head;
     }
 ```
-2.C++
+2. C++
 ```cpp
 public:
     static auto flatten(Node *head) -> Node * {
